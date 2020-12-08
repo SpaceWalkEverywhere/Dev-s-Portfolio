@@ -1,37 +1,75 @@
 #app {
-    width :100%;
+    width: 100%;
     height: 800px;
     background-color: cadetblue;
 }
-#game {
-    width :100%;
-    height: 800px;
-    background-color:forestgreen;
+#header {
+     background: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,#a663cc );
 }
+#videos{
+     background: linear-gradient(to bottom right, grey,cyan,lime,brown);
+}
+#game {
+    width: 100%;
+    height: 800px;
+    background-color: forestgreen;
+}
+
 img {
     transition: transform .2s;
     height: 350px;
-    width :350px;
+    width: 350px;
 }
-img:hover{
+
+img:hover {
     transform: scale(0.9)
 }
+
 .line {
     height: 6px;
     background-color: #000000;
     width: 70px;
     margin: 8px auto;
 }
+
 #Chatbot {
     width: 100%;
     height: 800px;
-    background-color: fuchsia;
+    background-color:#666699;
 }
+
 body {
- text-align: center;
+    text-align: center;
 }
+
 #mainpic {
     border-radius: 50%;
-width: 250px;
+    width: 250px;
     height: 250px;
+}
+
+.lis {
+    color: #000000;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.lis:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background: #FFEAAE;
 }
